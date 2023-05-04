@@ -1,0 +1,17 @@
+{
+  "name": "serverless-api",
+  "version": "1.0.0",
+  "description": "Serverless API with 'get' request returning 'Hello World'",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3",
+    "supertest": "^6.3.3"
+  }
+}
